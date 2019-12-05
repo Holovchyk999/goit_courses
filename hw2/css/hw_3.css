@@ -1,0 +1,116 @@
+
+.image {
+    width: 420px;
+    margin-bottom: auto;
+    height: 280px;
+    padding: 0;
+}
+
+.bodyclass {
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.store-nav {
+    padding: 77px 0 103px 0;
+}
+.hr {
+    display: inline-block;
+    width: 900px;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.hr li {
+    display: inline-block;
+}
+
+.hr li:not(:last-child) {
+    margin-right: 95px;
+} 
+
+.hr li a {
+    text-decoration: none; 
+    color: rgba(25, 102, 92, 0.7);
+}
+
+.hr a:hover {
+    color: #25b4f5;
+}
+
+.bottom {
+    margin-bottom: 134px;
+}
+
+.space {
+    margin-bottom: 54px;
+}
+
+.feature-section { 
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.context {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    text-align: left;
+    color:#626262;
+}
+
+.context:nth-child(2n) {
+    margin-right: 0;
+}
+
+.context h2 {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.context p  {
+    margin: 0;
+    font-size: 14px;
+    text-align: justify;
+    font-style: color #626262;
+    transform: translateY(30%);
+}
+
+.context .single {
+    margin: 0;
+    margin-bottom: 26px;
+    right: 0;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+.button {
+    font-weight: lighter;
+    color: #626262;
+    display: inline-block;
+    padding:21px 34px 22px 34px;
+    font-size: 20px;
+    line-height: 21px;
+    cursor: pointer;
+    border: 1px;
+    border-color: #626262;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    
+}
+ .button:hover {
+color: #25b4f5;
+}
