@@ -92,7 +92,7 @@ a:hover {
      width: 100%;
  }
 
- .moving-gallery h1 {
+ .moving-gallery h2 {
     text-transform: uppercase;
     color: #fff;
     line-height: 60px;
@@ -153,7 +153,7 @@ a:hover {
     background-color: #e9f0fd;
 }
 
-.main-gallery h1 {
+.main-gallery h2 {
     font-family: "Roboto-Black";
     font-size: 48px;
     text-transform: uppercase;
@@ -163,7 +163,7 @@ a:hover {
     position: relative;
 }
 
-.main-gallery h1::after {
+.main-gallery h2::after {
     content: "";
     display: inline-block;
     bottom: 0;
@@ -265,6 +265,18 @@ a:hover {
     align-items: center;
     border: 1px solid #fff;
     cursor: pointer;
+}
+
+.first-button {
+    background-image: url(../home-work5/img/heart.png);
+}
+
+.second-button {
+    background-image: url(../home-work5/img/arrows.png);
+}
+
+.trought-button {
+    background-image: url(../home-work5/img/clock.png);
 }
 
 .wrap {
