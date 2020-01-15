@@ -40,6 +40,8 @@
       font-size: 28px;
       cursor: pointer;
       font-family: "Qwigley-Regular";
+      text-decoration: none;
+      color: #000;
     }
     
     .logo__inner:hover {
@@ -88,7 +90,9 @@
       margin-bottom: 65px;
     }
     
-    .hat__h1-first { text-transform: uppercase;
+    .hat__h1-first { 
+      margin: 0;
+      text-transform: uppercase;
       font-family: "Montserrat-Regular";
       font-size: 40px;
       font-weight: bold;
@@ -97,6 +101,7 @@
     }
     
     .hat__p-first {
+      margin: 0;
       font-family: "DroidSerif-Italic";
       color: #000;
       font-size: 16px;
@@ -123,6 +128,7 @@
     }
     
     .item__p {
+      margin: 0;
       text-align: center;
       font-size: 14px;
       font-size: "Roboto-Regular";
@@ -136,9 +142,7 @@
       width: 72px;
       height: 71px;
     }
-    
-    /* section__02 */
-    
+        
     .section__02 {
       background-image: url(../img/bg.jpg);
       background-repeat: no-repeat;
@@ -152,6 +156,7 @@
     }
     
     .hat__h1 {
+      margin: 0;
       color: #fff;
       text-transform: uppercase;
       font-family: "Montserrat-Regular";
@@ -161,6 +166,7 @@
     }
     
     .hat__p {
+      margin: 0;
       font-family: "DroidSerif-Italic";
       color: #fff;
       font-size: 16px;
