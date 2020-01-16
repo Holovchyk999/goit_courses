@@ -41,11 +41,13 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-bottom: 80px;
   }
   
   .logo {
     color: #95e1d3;
     font-size: 30px;
+    text-decoration: none;
   }
   
   .menu__navigation {
@@ -94,19 +96,24 @@
     opacity: 1;
   }
   
-  .section__01,
-  .section__02 {
+  .section__firs,
+  .section__second {
     width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .section__second {
+    margin-bottom: 150px;
+  }
   
   .box {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin: 0;
     margin-top: 32px;
   }
   
@@ -150,12 +157,13 @@
     justify-content: space-between;
   }
   
-  .header__01 {
-    margin: 114px 0 32px 0;
+  .container {
+    margin: 0 auto;
     text-align: center;
   }
   
   .header__box1 {
+
     font-size: 24px;
     margin-bottom: 14px;
     font-family: "KaushanScript-Regular";
@@ -164,9 +172,12 @@
   .header__box2 {
     font-size: 30px;
     margin: 0;
-    padding-bottom: 34px;
+    padding-bottom: 14px;
     position: relative;
     font-family: "Montserrat-Bold";
+  }
+  h1 {
+    margin: 0;
   }
   
   .header__box2::after {
@@ -181,7 +192,7 @@
   }
   
   .header__box3 {
-    margin-top: 45px;
+    margin-top: 40px;
     text-align: center;
     font-family: "Roboto-Regular";
   }
@@ -252,7 +263,7 @@
     width: 1200px;
     height: 60px;
     margin: 0 auto;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -309,7 +320,7 @@
   }
   
   .gallery__item:hover .gallery__img,
-  .gallery__item:hover .sprite  {
+  .gallery__item:hover .sprite {
     transform: translate(-10px, -10px);
     opacity: 1;
   }
@@ -319,22 +330,29 @@
     width: 381px;
     height: 471px;
     display: flex;
+    padding: 0;
     justify-content: center;
     align-items: center;
     z-index: 4;
     opacity: 0;
     transition: all .6s ease-in-out;
+    list-style: none;
   }
   
   .sprite__img {
     transition: background .6s ease-in-out;
   }
-  
+
   .sprite__img:hover {
     background: #95e1d3;
   }
+
+  li {
+    margin: 0;
+  }
   
   .sprite__img {
+    margin:1px ;
     width: 57px;
     height: 57px;
     object-fit: none;
