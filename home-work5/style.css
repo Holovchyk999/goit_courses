@@ -226,9 +226,16 @@ a:hover {
     background: #1abc9c;
 }
 
+
 .part:hover span.price {
     background: #7fd9c7;
 }
+
+.single:hover {
+    border-color: transparent;
+    background: #323232;
+}
+
 .overlay{
     border-width: 10px;
     border-color: rgb(255, 255, 255);
@@ -260,8 +267,9 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #fff;
     cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff;
 
 }
 
@@ -273,8 +281,10 @@ a:hover {
     height: 50px;
     display: block;
     content: '';
-    
+
 }
+
+
 
 .card-2 {
     background-image: url(../home-work5/img/arrows.png);
@@ -297,26 +307,17 @@ a:hover {
 }
 
 .card-4 {
-    /* background-image: url(../home-work5/img/bucket.png);
-    background-repeat: no-repeat;
-    background-position: center; */
-    fill-opacity: 0;
     width: 166px;
-    height: 50px;
+    height: 52px;
     display: inline-block;
     content: '';
     position: absolute;
     bottom: 106px;
     cursor: pointer;
-}
-
-.img_4 {
-    position: absolute;
+    border: none;
     background-image: url(../home-work5/img/bucket.png);
     background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    content: '';
+    background-position: left;
 
 }
 
@@ -354,14 +355,29 @@ a:hover {
     opacity: 1;
 }
 
-.d__img:hover {
-    background: #1abc9c;
+.d__img.card-1:hover {
+    background: #1abc9c no-repeat center;
     border-color: transparent;
+    background-image: url(../home-work5/img/heart.png);
 }
 
-.single:hover {
+.d__img.card-2:hover {
+    background: #1abc9c no-repeat center;
     border-color: transparent;
-    background: #323232;
+    background-image: url(../home-work5/img/arrows.png);
+}
+
+.d__img.card-3:hover {
+    background: #1abc9c no-repeat center;
+    border-color: transparent;
+    background-image: url(../home-work5/img/clock.png);
+}
+
+
+.single:hover button {
+    background: #323232 no-repeat left;
+    background-image: url(../home-work5/img/bucket.png);
+    border: solid 1px #fff;
 }
 
 
