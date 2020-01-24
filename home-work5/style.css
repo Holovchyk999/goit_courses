@@ -57,9 +57,7 @@ li {
     display: inline-block;
     text-transform: uppercase;
 }
-li:not(:last-child) {
-    margin-right: 35px;
-}
+
 a:hover {
     color: #1abc9c;
 }
@@ -68,11 +66,10 @@ a:hover {
     font-size: 14px;
     font-weight: 900;
     color: #000;
+    padding: 10px;
 }
 .first {
     background-image: url(../home-work5/img/group.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -178,8 +175,8 @@ a:hover {
 
 .gallery {
     width: 1170px;
-    margin-top: 80px;
     font-size: 0;
+    margin: 80px 0 0 0;
 }
 
 .part {
@@ -265,19 +262,65 @@ a:hover {
     align-items: center;
     border: 1px solid #fff;
     cursor: pointer;
+
 }
 
-.first-button {
+.card-1 {
     background-image: url(../home-work5/img/heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    content: '';
+    
 }
 
-.second-button {
+.card-2 {
     background-image: url(../home-work5/img/arrows.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    content: '';
 }
 
-.trought-button {
+.card-3 {
     background-image: url(../home-work5/img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    content: '';
 }
+
+.card-4 {
+    /* background-image: url(../home-work5/img/bucket.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+    fill-opacity: 0;
+    width: 166px;
+    height: 50px;
+    display: inline-block;
+    content: '';
+    position: absolute;
+    bottom: 106px;
+    cursor: pointer;
+}
+
+.img_4 {
+    position: absolute;
+    background-image: url(../home-work5/img/bucket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    content: '';
+
+}
+
+
 
 .wrap {
     width: 166px;
