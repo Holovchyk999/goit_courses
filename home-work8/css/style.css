@@ -17,6 +17,7 @@
   box-sizing: border-box;
 }
 
+
 .container {
   background-image: url(../img/couple-m.jpg);
   background-size: cover;
@@ -49,7 +50,7 @@
   padding-bottom: 43%;
 }
 
-.content h2 {
+.content h1 {
   font-size: 1.25em;
   cursor: pointer;
 }
@@ -57,9 +58,9 @@
 .menu_text {
   margin-top: 8.37%;
   padding: 0 3%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; */
   align-items: center;
   color: #fff;
   font-family: "Montserrat-Bold";
@@ -143,7 +144,49 @@
   z-index: 0;
 }
 
-.icon {
+.tv {
+  background-image: url(../img/tv.png);
+  background-color: #ff4e50;
+}
+
+.flask {
+  background-image: url(../img/flask.png);
+  background-color: #ffa507;
+}
+
+.cup {
+  background-image: url(../img/cup.png);
+  background-color: #1cd7ad;
+}
+
+.telegram {
+  background-image: url(../img/telegram.png);
+  background-color: #4e73db;
+  content: '';
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 4px #fff;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: -12px;
+  right: 3px;
+}
+
+
+.tv,
+.flask,
+.cup,
+.telegram
+::before {
+  content: '';
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 4px #fff;
+  width: 35px;
+  height: 35px;
   position: absolute;
   bottom: -12px;
   right: 3px;
@@ -302,6 +345,7 @@
 @media screen and (min-width: 940px) {
   .container {
     background-image: url(../img/couple-d.jpg);
+
   }
 
   .header,
@@ -332,7 +376,7 @@
     margin: 0 auto;
   } 
 
-  .menu_text h1 {
+  .menu_text h2 {
     font-size: 3.248125em;
   }
 
