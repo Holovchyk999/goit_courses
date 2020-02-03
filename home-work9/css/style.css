@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../css/fonts/monsterrat/Montserrat-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Roboto-Light";
+    src: url(../css/fonts/roboto/Roboto-Light.ttf);
+  }
+
+  body {
+    font-family: "Montserrat-Bold";
+  }
+
+  .first-screen {
+    background-image: url(../img/couple-d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+  }
+
+  .subtitle {
+    font-family: "Roboto-Light";
+    font-size: 1.125em;
+  }
+
+  .nav {
+    height: 215px;
+  }
+
+
+  .logoCard {
+    font-size: 1.25em;
+    color: #fff;
+    font-family: "Montserrat-Bold";
+
+  }
+  
+  .logoCard:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat-Bold";
+
+  }
+  
+  .firstButtons {
+    font-family: "Montserrat-Bold";
+    margin-top: 38px;
+  }
+
+  .logo {
+    margin-top: 50px;
+
+  }
+
+.button {
+    background: transparent;
+    border: 3px solid transparent;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0.63rem 1.06rem;
+    font-size: 0.875em;
+    transition: border .3s ease-in-out;
+  }
+
+  .section {
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: "Montserrat-Bold";
+
+  }
+
+  .tittle {
+      color: #fff;
+      font-size: 2.55em;
+      font-family: "Montserrat-Bold";
+
+  }
+
+  .cardPeople_item h3, p {
+    font-size: 0.875em;
+  }
+  
+  .cardPeople_item h3 {
+    padding: .7em 0;
+  }
+  
+  .cardPeople_item p {
+    font-family: "Roboto-Light";
+  }
+
+  .button:hover,
+.button:active,
+.button:focus {
+  outline: none;
+  cursor: pointer;
+  border-color: #fff;
+
+}
+
+.cardPeople_title {
+    margin-bottom: 60px;
+}
+
+.secondButton {
+    border-radius: 20px;
+    background: #ff4e50;
+    border: none;
+    color: #fff;
+    width: 238px;
+    margin-top: 30px;
+    font-size: 0.875em;
+    line-height: 40px;
+}
+
+.cardPeople {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+}
+
+.picture,
+.sign {
+    border-radius: 50%;
+}
+
+.icon {
+    position: absolute;
+    top: 95px;
+    right: 28%;
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 39%;
+  }
+
+  .sign {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+.tv {
+    background-image: url(../img/tv.png);
+    background-color: #ff4e50;
+
+    
+  }
+  
+  .flask {
+    background-image: url(../img/flask.png);
+    background-color: #ffa507;
+  }
+  
+  .cup {
+    background-image: url(../img/cup.png);
+    background-color: #1cd7ad;
+  }
+
+  .telegram {
+      background-image: url(../img/telegram.png);
+      background-color: #4e73db;
+  }
+
+  .row {
+      margin-bottom: 300px;
+  }
+
+  .lastButton_button {
+    background: transparent;
+    border: 3px solid #ff4e50;
+    border-radius: 25px;
+    margin: 1.7rem 0 3.5rem;
+    padding: 0.50rem 3.89rem;
+    font-size: 0.875em;
+    color: #ff4e50;
+    cursor: pointer;
+  }
+
+  .lastButton_button:hover,
+  .lastButton_button:active,
+  .lastButton_button:focus {
+    outline: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .first_screen {
+      background-image: url(../img/couple-t.jpg);
+      height: 700px;
+    }
+
+    .nav {
+        height: 110px;
+      }
+
+      .ineer__section {
+        margin-top: 6.9rem;
+      }
+
+      .tittle {
+        font-size: 3.25rem;
+      }
+
+      .icon {
+        bottom: -3px;
+        right: 29%;
+      }
+    }
+
+    @media screen and (min-width:992px) {
+        .first_screen {
+          background-image: url(../img/couple-d.jpg);
+        }
+      
+        .icon {
+          bottom: -2px;
+          right: 29%;
+        }
+      }
