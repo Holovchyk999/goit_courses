@@ -91,6 +91,10 @@
     font-family: "Roboto-Light";
   }
 
+  .cardPeople_item {
+    list-style: none;
+  }
+
   .button:hover,
 .button:active,
 .button:focus {
@@ -113,6 +117,7 @@
     margin-top: 30px;
     font-size: 0.875em;
     line-height: 40px;
+    margin-bottom: 300px;
 }
 
 .cardPeople {
@@ -171,9 +176,7 @@
       background-color: #4e73db;
   }
 
-  .row {
-      margin-bottom: 300px;
-  }
+
 
   .lastButton_button {
     background: transparent;
