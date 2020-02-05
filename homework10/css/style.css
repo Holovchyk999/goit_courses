@@ -147,6 +147,7 @@
   .header-wrapper__learn-more {
     width: 160px;
     height: 40px;
+    margin-bottom: 60px;
     background: transparent;
     border: 3px solid #fff;
     text-transform: uppercase;
